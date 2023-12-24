@@ -10,7 +10,7 @@ export default function MainRouter() {
         <Route />
         {/* Mashers routessssssssssssssssssssssss  */}
         <Route
-          path='/mentor'
+          path='/'
           element={
            
               <Mentor/>
