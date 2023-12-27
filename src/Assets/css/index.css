@@ -1,0 +1,71 @@
+@import url('../../Assets/Fonts/Kotta.css');
+:root {
+    --common-font-family: 'Kotta One', serif;
+  }
+.left-container{
+  background-color: rgb(249, 249, 250);
+
+}
+.con{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid;
+}
+
+.login-container{
+    width: 800px;
+}
+.lg-heading{
+    font-family: var(--common-font-family);
+}
+.form-label,.form-control,.text-danger,.custom-font{
+    font-family: var(--common-font-family);
+}
+.link{
+    text-decoration: none;
+    color: #5c00e3;
+}
+.custom{
+    outline: none !important;
+}
+.PhoneInputInput {
+    outline: none; /* Remove the outline */
+  }
+/* ----------------------------- css for small screens -------------------------------  */
+@media only screen and (max-width:768px) 
+{
+    /* ----------------------------- css for Authentication -------------------------------  */
+    .login-container{
+        border-radius: 0;
+    }
+    .left-container-login{
+       height: 53vh;
+      }
+      /* ----------------------------- css for Forgotpassword -------------------------------  */
+      .left-container-forgotpassword{
+        height: 66vh;
+      }
+      .left-container-forgotpassword-otp{
+        height: 60vh;
+      }
+      .left-container-forgotpassword-change{
+        height: 54vh;
+      }
+      /* ----------------------------- css for Dashbord -------------------------------  */
+    
+}
+/* ------------------------- css for the large screens alone --------------------------  */
+@media only screen and (min-width:768px) {
+    .login-container{
+        border-radius: 1rem;
+    }
+    .left-container{
+        background-color: rgb(249, 249, 250);
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+      }
+      #root{
+        background: linear-gradient(45deg, #e6e7d4, #f4eeda);
+      }
+}
+/* ----------------------------- css for Dashbord -------------------------------  */
